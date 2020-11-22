@@ -354,6 +354,11 @@ address {
 
   max-width: 696px;
 }
+
+.btn-hero {
+  padding: 10px 32px;
+}
+
 .btn-hero:hover,
 .btn-hero:focus {
   cursor: pointer;
@@ -993,7 +998,9 @@ textarea {
 .form-input:hover ~ .form-svg,
 .form-input:focus ~ .form-svg,
 .form-input:hover,
-.form-input:focus {
+.form-input:focus,
+.form-comment:hover,
+.form-comment:focus {
   fill: var(--acent-cl);
   border-color: var(--acent-cl);
 
@@ -1096,6 +1103,10 @@ textarea {
   letter-spacing: 0.03em;
 
   color: var(--main-text-cl);
+}
+
+.btn-Backdrop {
+  padding: 10px 55px 10px 56px;
 }
 
 .btn-Backdrop:hover,
