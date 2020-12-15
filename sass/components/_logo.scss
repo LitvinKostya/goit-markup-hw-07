@@ -5,7 +5,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--acent-cl);
+  color: $acent-cl;
   text-decoration: none;
 }
 
@@ -14,16 +14,16 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--acent-cl);
+  color: $acent-cl;
   text-decoration: none;
 }
 
 .studio-cl-1 {
-  color: var(--secondary-text-cl);
+  color: $secondary-text-cl;
 }
 
 .studio-cl-2 {
-  color: var(--white);
+  color: $white;
 }
 
 .logo:hover,

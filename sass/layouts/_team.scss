@@ -6,7 +6,7 @@
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: $secondary-text-cl;
 }
 
 .team-list {
@@ -23,7 +23,7 @@
 }
 
 .item-team {
-  background-color: var(--white);
+  background-color: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -31,7 +31,7 @@
 .team-box {
   padding-bottom: 94px;
   padding-top: 94px;
-  background-color: var(--team-bg-cl);
+  background-color: $team-bg-cl;
 }
 .team {
   text-align: center;
@@ -45,7 +45,7 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: $secondary-text-cl;
 }
 
 .team-profession {
@@ -74,7 +74,7 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--white);
+  background-color: $white;
   border-radius: 50%;
 }
 
@@ -85,12 +85,12 @@
   cursor: pointer;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--acent-cl);
-  fill: var(--white);
+  background-color: $acent-cl;
+  fill: $white;
 }
 
 .socialnetworks-icon {
   width: 20px;
   height: 20px;
-  fill: var(--socialnetworks-icon);
+  fill: $socialnetworks-icon;
 }

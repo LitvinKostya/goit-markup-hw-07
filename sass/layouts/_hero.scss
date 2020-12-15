@@ -25,7 +25,7 @@
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
 }
 
 .title {
@@ -43,7 +43,7 @@
 .btn-hero:hover,
 .btn-hero:focus {
   cursor: pointer;
-  background-color: var(--acent-cl);
+  background-color: $acent-cl;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

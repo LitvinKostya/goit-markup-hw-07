@@ -1,16 +1,4 @@
 @charset "UTF-8";
-:root {
-  --acent-cl: #2196f3;
-  --secondary-text-cl: #212121;
-  --main-text-cl: #757575;
-  --white: #ffffff;
-  --work-portfolio-bg: #e5e5e5;
-  --team-bg-cl: #f5f4fa;
-  --footer-bg-cl: #2f303a;
-  --footer-contacts: rgba(255, 255, 255, 0.6);
-  --socialnetworks-icon: #afb1b8;
-}
-
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -72,7 +60,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  color: #757575;
 }
 
 .list {
@@ -117,13 +105,13 @@ body {
 .mail-svg {
   height: 12px;
   width: 16px;
-  fill: var(--main-text-cl);
+  fill: #757575;
 }
 
 .contacts-svg {
   height: 16px;
   width: 10px;
-  fill: var(--main-text-cl);
+  fill: #757575;
 }
 
 .header-mail:hover .mail-svg,
@@ -131,7 +119,7 @@ body {
 .header-cont:hover .contacts-svg,
 .header-cont:focus .contacts-svg {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--acent-cl);
+  fill: #2196f3;
 }
 
 .menu-link {
@@ -147,7 +135,7 @@ body {
   content: "";
   width: 100%;
   bottom: -4px;
-  border-bottom: 4px solid var(--acent-cl);
+  border-bottom: 4px solid #2196f3;
   border-radius: 2px;
 }
 
@@ -157,7 +145,7 @@ body {
   content: "";
   width: 100%;
   bottom: -4px;
-  border-bottom: 4px solid var(--acent-cl);
+  border-bottom: 4px solid #2196f3;
   border-radius: 2px;
 }
 
@@ -183,7 +171,7 @@ address {
 .link:hover,
 .link:focus {
   cursor: pointer;
-  color: var(--acent-cl);
+  color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -193,7 +181,7 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .header-cont {
@@ -224,8 +212,8 @@ address {
   line-height: 1.87;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--acent-cl);
-  color: var(--white);
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .btn-portfolio {
@@ -240,16 +228,16 @@ address {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  background-color: var(--team-bg-cl);
-  color: var(--secondary-text-cl);
+  background-color: #f5f4fa;
+  color: #212121;
 }
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--acent-cl);
-  color: var(--white);
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .logo-header {
@@ -259,7 +247,7 @@ address {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--acent-cl);
+  color: #2196f3;
   text-decoration: none;
 }
 
@@ -268,16 +256,16 @@ address {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--acent-cl);
+  color: #2196f3;
   text-decoration: none;
 }
 
 .studio-cl-1 {
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .studio-cl-2 {
-  color: var(--white);
+  color: #ffffff;
 }
 
 .logo:hover,
@@ -316,7 +304,7 @@ address {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .title {
@@ -333,7 +321,7 @@ address {
 .btn-hero:hover,
 .btn-hero:focus {
   cursor: pointer;
-  background-color: var(--acent-cl);
+  background-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -352,7 +340,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   /*все заглавные*/
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .act {
@@ -429,7 +417,7 @@ address {
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .team-list {
@@ -446,7 +434,7 @@ address {
 }
 
 .item-team {
-  background-color: var(--white);
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -454,7 +442,7 @@ address {
 .team-box {
   padding-bottom: 94px;
   padding-top: 94px;
-  background-color: var(--team-bg-cl);
+  background-color: #f5f4fa;
 }
 
 .team {
@@ -469,7 +457,7 @@ address {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .team-profession {
@@ -499,7 +487,7 @@ address {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--white);
+  background-color: #ffffff;
   border-radius: 50%;
 }
 
@@ -509,14 +497,14 @@ address {
 .socialnetworks-links:focus .socialnetworks-icon {
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--acent-cl);
-  fill: var(--white);
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .socialnetworks-icon {
   width: 20px;
   height: 20px;
-  fill: var(--socialnetworks-icon);
+  fill: #afb1b8;
 }
 
 .title-client {
@@ -529,7 +517,7 @@ address {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .client-list {
@@ -544,7 +532,7 @@ address {
 }
 
 .client-color {
-  fill: var(--socialnetworks-icon);
+  fill: #afb1b8;
 }
 
 .client-links {
@@ -564,7 +552,7 @@ address {
 }
 
 .client-links:hover {
-  border-color: var(--acent-cl);
+  border-color: #2196f3;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -573,7 +561,7 @@ address {
 .client-links:focus .client-color {
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--acent-cl);
+  fill: #2196f3;
 }
 
 .client:last-child {
@@ -663,7 +651,7 @@ address {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .icon-group {
@@ -672,7 +660,7 @@ address {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  color: #757575;
 }
 
 .flexbox :nth-child(3n) {
@@ -687,7 +675,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--footer-bg-cl);
+  background-color: #2f303a;
 }
 
 .footer-contacts {
@@ -695,7 +683,7 @@ address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .logo-box {
@@ -751,7 +739,7 @@ address {
   display: flex;
   width: 20px;
   height: 20px;
-  fill: var(--white);
+  fill: #ffffff;
 }
 
 .socialnetworks-links-footer:not(:last-child) {
@@ -764,8 +752,8 @@ address {
 .socialnetworks-links-footer:focus .socialnetworks-icon-footer {
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-  background-color: var(--acent-cl);
-  fill: var(--white);
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .letter-title {
@@ -778,7 +766,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .socialnetworks-title {
@@ -793,7 +781,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .letter-footer {
@@ -835,7 +823,7 @@ address {
   margin-left: 10px;
   top: 13px;
   right: 28px;
-  fill: var(--white);
+  fill: #ffffff;
 }
 
 .backdrop {
@@ -879,7 +867,7 @@ address {
 .close:hover,
 .close:focus {
   cursor: pointer;
-  fill: var(--acent-cl);
+  fill: #2196f3;
 }
 
 textarea {
@@ -920,8 +908,8 @@ textarea {
 .form-input:focus,
 .form-comment:hover,
 .form-comment:focus {
-  fill: var(--acent-cl);
-  border-color: var(--acent-cl);
+  fill: #2196f3;
+  border-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   outline: none;
@@ -935,7 +923,7 @@ textarea {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: #212121;
 }
 
 .form-comment {
@@ -1018,7 +1006,7 @@ textarea {
   font-size: 14px;
   line-height: 1.41;
   letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  color: #757575;
 }
 
 .btn-Backdrop {
@@ -1028,18 +1016,18 @@ textarea {
 .btn-Backdrop:hover,
 .btn-Backdrop:focus {
   cursor: pointer;
-  background-color: var(--acent-cl);
+  background-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .checkbox-link {
-  color: var(--acent-cl);
+  color: #2196f3;
 }
 
 .checkbox-link:hover,
 .checkbox-link:focus {
-  color: var(--acent-cl);
+  color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */

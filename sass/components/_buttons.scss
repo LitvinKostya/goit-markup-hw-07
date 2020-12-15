@@ -11,8 +11,8 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--acent-cl);
-  color: var(--white);
+  background-color: $acent-cl;
+  color: $white;
 }
 
 .btn-portfolio {
@@ -27,8 +27,8 @@
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  background-color: var(--team-bg-cl);
-  color: var(--secondary-text-cl);
+  background-color: $team-bg-cl;
+  color: $secondary-text-cl;
 }
 
 .btn-portfolio:hover,
@@ -36,6 +36,6 @@
   cursor: pointer;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--acent-cl);
-  color: var(--white);
+  background-color: $acent-cl;
+  color: $white;
 }

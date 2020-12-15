@@ -41,7 +41,7 @@
 .close:hover,
 .close:focus {
   cursor: pointer;
-  fill: var(--acent-cl);
+  fill: $acent-cl;
 }
 
 textarea {
@@ -83,8 +83,8 @@ textarea {
 .form-input:focus,
 .form-comment:hover,
 .form-comment:focus {
-  fill: var(--acent-cl);
-  border-color: var(--acent-cl);
+  fill: $acent-cl;
+  border-color: $acent-cl;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -100,7 +100,7 @@ textarea {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: $secondary-text-cl;
 }
 .form-comment {
   padding: 12px 16px;
@@ -184,7 +184,7 @@ textarea {
   line-height: 1.41;
   letter-spacing: 0.03em;
 
-  color: var(--main-text-cl);
+  color: $main-text-cl;
 }
 
 .btn-Backdrop {
@@ -194,7 +194,7 @@ textarea {
 .btn-Backdrop:hover,
 .btn-Backdrop:focus {
   cursor: pointer;
-  background-color: var(--acent-cl);
+  background-color: $acent-cl;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -203,10 +203,10 @@ textarea {
 }
 
 .checkbox-link {
-  color: var(--acent-cl);
+  color: $acent-cl;
 }
 
 .checkbox-link:hover,
 .checkbox-link:focus {
-  color: var(--acent-cl);
+  color: $acent-cl;
 }

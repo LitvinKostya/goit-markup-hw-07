@@ -8,7 +8,7 @@
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-cl);
+  color: $secondary-text-cl;
 }
 
 .client-list {
@@ -23,7 +23,7 @@
 }
 
 .client-color {
-  fill: var(--socialnetworks-icon);
+  fill: $socialnetworks-icon;
 }
 
 .client-links {
@@ -46,7 +46,7 @@
 }
 
 .client-links:hover {
-  border-color: var(--acent-cl);
+  border-color: $acent-cl;
   cursor: pointer;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -57,7 +57,7 @@
   cursor: pointer;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--acent-cl);
+  fill: $acent-cl;
 }
 
 .client:last-child {
