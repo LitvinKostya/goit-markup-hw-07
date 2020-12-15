@@ -1,0 +1,43 @@
+.activity-list {
+  margin-top: 0px;
+  padding-top: 94px;
+}
+
+.activity {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; /*все заглавные*/
+  color: var(--secondary-text-cl);
+}
+
+.act {
+  display: flex;
+}
+
+.act .item-activity + .item-activity {
+  margin-left: 30px;
+}
+
+.act .item-activity {
+  width: 270px;
+}
+
+.activity-svg {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+
+  background-color: #f5f4fa;
+}
+
+.act-text {
+  margin: 0px;
+}

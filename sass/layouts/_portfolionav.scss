@@ -1,0 +1,21 @@
+.portfolio-cont {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.menu {
+  margin-bottom: 50px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item + .menu-item {
+  margin-left: 8px;
+}
